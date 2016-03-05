@@ -8,12 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		E0479E4D1C8B882B00178CD6 /* KbCalc.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E4C1C8B882B00178CD6 /* KbCalc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0479E691C8B88AF00178CD6 /* KeyboardOperationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E551C8B88AF00178CD6 /* KeyboardOperationsManager.h */; };
+		E0479E6A1C8B88AF00178CD6 /* KeyboardOperationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0479E561C8B88AF00178CD6 /* KeyboardOperationsManager.m */; };
+		E0479E6B1C8B88AF00178CD6 /* KbCalc.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E571C8B88AF00178CD6 /* KbCalc.h */; };
+		E0479E6C1C8B88AF00178CD6 /* KbCalc.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E0479E581C8B88AF00178CD6 /* KbCalc.podspec */; };
+		E0479E6D1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E5A1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.h */; };
+		E0479E6E1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0479E5B1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.m */; };
+		E0479E6F1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E5C1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.h */; };
+		E0479E701C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0479E5D1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.m */; };
+		E0479E711C8B88AF00178CD6 /* KeyboardOperationMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E5E1C8B88AF00178CD6 /* KeyboardOperationMapper.h */; };
+		E0479E721C8B88AF00178CD6 /* KeyboardOperationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E0479E5F1C8B88AF00178CD6 /* KeyboardOperationMapper.m */; };
+		E0479E731C8B88AF00178CD6 /* KeyboardButtonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E611C8B88AF00178CD6 /* KeyboardButtonModel.h */; };
+		E0479E741C8B88AF00178CD6 /* KeyboardButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0479E621C8B88AF00178CD6 /* KeyboardButtonModel.m */; };
+		E0479E751C8B88AF00178CD6 /* KeyboardButtonsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E631C8B88AF00178CD6 /* KeyboardButtonsModel.h */; };
+		E0479E761C8B88AF00178CD6 /* KeyboardButtonsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0479E641C8B88AF00178CD6 /* KeyboardButtonsModel.m */; };
+		E0479E771C8B88AF00178CD6 /* KeyboardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E0479E651C8B88AF00178CD6 /* KeyboardViewController.h */; };
+		E0479E781C8B88AF00178CD6 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0479E661C8B88AF00178CD6 /* KeyboardViewController.m */; };
+		E0479E791C8B88AF00178CD6 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0479E671C8B88AF00178CD6 /* KeyboardViewController.xib */; };
+		E0479E7A1C8B88AF00178CD6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0479E681C8B88AF00178CD6 /* Info.plist */; };
+		E0479E7C1C8B88F700178CD6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0479E7B1C8B88F700178CD6 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0479E491C8B882B00178CD6 /* KbCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KbCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0479E4C1C8B882B00178CD6 /* KbCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KbCalc.h; sourceTree = "<group>"; };
-		E0479E4E1C8B882B00178CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0479E551C8B88AF00178CD6 /* KeyboardOperationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardOperationsManager.h; sourceTree = "<group>"; };
+		E0479E561C8B88AF00178CD6 /* KeyboardOperationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardOperationsManager.m; sourceTree = "<group>"; };
+		E0479E571C8B88AF00178CD6 /* KbCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KbCalc.h; sourceTree = "<group>"; };
+		E0479E581C8B88AF00178CD6 /* KbCalc.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KbCalc.podspec; sourceTree = "<group>"; };
+		E0479E5A1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonCollectionViewCell.h; sourceTree = "<group>"; };
+		E0479E5B1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonCollectionViewCell.m; sourceTree = "<group>"; };
+		E0479E5C1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonsCollectionDelegate.h; sourceTree = "<group>"; };
+		E0479E5D1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonsCollectionDelegate.m; sourceTree = "<group>"; };
+		E0479E5E1C8B88AF00178CD6 /* KeyboardOperationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardOperationMapper.h; sourceTree = "<group>"; };
+		E0479E5F1C8B88AF00178CD6 /* KeyboardOperationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardOperationMapper.m; sourceTree = "<group>"; };
+		E0479E611C8B88AF00178CD6 /* KeyboardButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonModel.h; sourceTree = "<group>"; };
+		E0479E621C8B88AF00178CD6 /* KeyboardButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonModel.m; sourceTree = "<group>"; };
+		E0479E631C8B88AF00178CD6 /* KeyboardButtonsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonsModel.h; sourceTree = "<group>"; };
+		E0479E641C8B88AF00178CD6 /* KeyboardButtonsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonsModel.m; sourceTree = "<group>"; };
+		E0479E651C8B88AF00178CD6 /* KeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		E0479E661C8B88AF00178CD6 /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		E0479E671C8B88AF00178CD6 /* KeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
+		E0479E681C8B88AF00178CD6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0479E7B1C8B88F700178CD6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +83,52 @@
 		E0479E4B1C8B882B00178CD6 /* KbCalc */ = {
 			isa = PBXGroup;
 			children = (
+				E0479E541C8B88AF00178CD6 /* Calculator */,
+				E0479E571C8B88AF00178CD6 /* KbCalc.h */,
+				E0479E581C8B88AF00178CD6 /* KbCalc.podspec */,
+				E0479E591C8B88AF00178CD6 /* KeyboardButtonsManager */,
+				E0479E651C8B88AF00178CD6 /* KeyboardViewController.h */,
+				E0479E661C8B88AF00178CD6 /* KeyboardViewController.m */,
+				E0479E671C8B88AF00178CD6 /* KeyboardViewController.xib */,
+				E0479E681C8B88AF00178CD6 /* Info.plist */,
+				E0479E7B1C8B88F700178CD6 /* Info.plist */,
 				E0479E4C1C8B882B00178CD6 /* KbCalc.h */,
-				E0479E4E1C8B882B00178CD6 /* Info.plist */,
 			);
 			path = KbCalc;
+			sourceTree = "<group>";
+		};
+		E0479E541C8B88AF00178CD6 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				E0479E551C8B88AF00178CD6 /* KeyboardOperationsManager.h */,
+				E0479E561C8B88AF00178CD6 /* KeyboardOperationsManager.m */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		E0479E591C8B88AF00178CD6 /* KeyboardButtonsManager */ = {
+			isa = PBXGroup;
+			children = (
+				E0479E5A1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.h */,
+				E0479E5B1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.m */,
+				E0479E5C1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.h */,
+				E0479E5D1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.m */,
+				E0479E5E1C8B88AF00178CD6 /* KeyboardOperationMapper.h */,
+				E0479E5F1C8B88AF00178CD6 /* KeyboardOperationMapper.m */,
+				E0479E601C8B88AF00178CD6 /* Model */,
+			);
+			path = KeyboardButtonsManager;
+			sourceTree = "<group>";
+		};
+		E0479E601C8B88AF00178CD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0479E611C8B88AF00178CD6 /* KeyboardButtonModel.h */,
+				E0479E621C8B88AF00178CD6 /* KeyboardButtonModel.m */,
+				E0479E631C8B88AF00178CD6 /* KeyboardButtonsModel.h */,
+				E0479E641C8B88AF00178CD6 /* KeyboardButtonsModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +138,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0479E6D1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.h in Headers */,
 				E0479E4D1C8B882B00178CD6 /* KbCalc.h in Headers */,
+				E0479E711C8B88AF00178CD6 /* KeyboardOperationMapper.h in Headers */,
+				E0479E6F1C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.h in Headers */,
+				E0479E6B1C8B88AF00178CD6 /* KbCalc.h in Headers */,
+				E0479E751C8B88AF00178CD6 /* KeyboardButtonsModel.h in Headers */,
+				E0479E771C8B88AF00178CD6 /* KeyboardViewController.h in Headers */,
+				E0479E691C8B88AF00178CD6 /* KeyboardOperationsManager.h in Headers */,
+				E0479E731C8B88AF00178CD6 /* KeyboardButtonModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0479E7C1C8B88F700178CD6 /* Info.plist in Resources */,
+				E0479E6C1C8B88AF00178CD6 /* KbCalc.podspec in Resources */,
+				E0479E791C8B88AF00178CD6 /* KeyboardViewController.xib in Resources */,
+				E0479E7A1C8B88AF00178CD6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0479E6A1C8B88AF00178CD6 /* KeyboardOperationsManager.m in Sources */,
+				E0479E741C8B88AF00178CD6 /* KeyboardButtonModel.m in Sources */,
+				E0479E781C8B88AF00178CD6 /* KeyboardViewController.m in Sources */,
+				E0479E701C8B88AF00178CD6 /* KeyboardButtonsCollectionDelegate.m in Sources */,
+				E0479E6E1C8B88AF00178CD6 /* KeyboardButtonCollectionViewCell.m in Sources */,
+				E0479E761C8B88AF00178CD6 /* KeyboardButtonsModel.m in Sources */,
+				E0479E721C8B88AF00178CD6 /* KeyboardOperationMapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
